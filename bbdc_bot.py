@@ -16,7 +16,6 @@ idLogin.send_keys(password)
 loginButton = browser.find_element_by_name('btnLogin')
 loginButton.click()
 
-
 # Switching to Left Frame and accessing element by text
 browser.switch_to.default_content()
 frame = browser.find_element_by_name('leftFrame')
